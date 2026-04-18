@@ -7,7 +7,7 @@ class Student:
 def collect_student_data():
     students = []
     for _ in range(3):
-        name = input("Enter student name: ")
+        name = input("Enter student name666: ")
         age = int(input("Enter student age: "))
         student_id = input("Enter student ID: ")
         students.append(Student(name, age, student_id))
